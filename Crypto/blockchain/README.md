@@ -24,14 +24,18 @@ a structural weakness allows full decryption of all blocks.
 ## Key Derivation
 
 For each block, the AES key is derived as:
+
 ```block_key = PBKDF2(prev_hash, block_number, SHA256, count=100000)```
+
 Then the block is decrypted using:
+
 ```AES-CBC(block_key, IV)```
 
 
 ## Vulnerability
 PBKDF2 internally reduces long password inputs using SHA-256 before applying HMAC.
 This implies:
+
 ```PBKDF2(m, salt) = PBKDF2(SHA256(m), salt)```
 
 ## Exploitation Strategy
