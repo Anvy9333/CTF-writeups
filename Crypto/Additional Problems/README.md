@@ -12,7 +12,7 @@ The server script implements a variant of DGHV. When a user connects to it, they
 
 ## DGHV Homomorphic Encryption
 
-<h2>Encryption :</h2>
+<h3>Encryption :</h3>
 
 ```c = m + 2r + p·q```
 Where:
@@ -24,7 +24,7 @@ p = secret key (odd integer)
 
 q = random large integer
 
-<h2>Decryption :</h2>
+<h3>Decryption :</h3>
 
 ```m = (c mod p) mod 2```
 
@@ -46,13 +46,13 @@ When noise becomes too large, decryption leaks:
 
 ## Exploitation Strategy
 
-<h2>Trigger Addition Overflow</h2>
+<h3>Trigger Addition Overflow</h3>
 
 By repeatedly adding ciphertexts, the noise grows until the decryption leaks 
 
 ``` (p mod N)```
 
-<h2>Control Parameter N</h2>
+<h3>Control Parameter N</h3>
 
 this server allows users to configure N.So we can choose different values of N and recover:
 
@@ -62,11 +62,11 @@ p mod N2
 p mod N3
 ```
 
-<h2>Apply Chinese Remainder Theorem</h2>
+<h3>Apply Chinese Remainder Theorem</h3>
 
 Once we collect enough residues we can  reconstruct p using the Chinese Remainder Theorem.
 
-<h2>Decrypt the Flag</h2>
+<h3>Decrypt the Flag</h3>
 Once p is known:
 
 
