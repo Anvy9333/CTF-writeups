@@ -30,13 +30,13 @@ By transliterating the characters, the sentence reads:  "Seek help from Shamir t
 
 Kuzdul (Dwarvish) requires 2 phases :
 
-Phase 1 : 
+<h3>Phase 1 :</h3>
 
 Kuzdul is written using Cirth (Angerthas) runes and those runes are not English letters. 
 
 So we need to use a  Cirth chart to do rune -> phonetic value
 
-Phase 2 :
+<h3>Phase 2 :</h3>
 
 Now that we have a text we need to look words in a Kuzdul dictionary 
 
