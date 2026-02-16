@@ -12,11 +12,17 @@ Simple hash cracking using custom wordlist based on the challenge description
 From the description, we identify important personal information:
 
 First name: Alex
+
 Surname: Robinson
+
 Nickname: Robyeye
+
 Birth year: 2000
+
 City: Anderlecht
+
 Pet name: Blobplop
+
 Hobby: Badminton
 
 These details suggest that the password is likely based on personal data.
