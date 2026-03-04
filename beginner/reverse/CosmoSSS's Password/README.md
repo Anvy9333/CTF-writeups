@@ -1,6 +1,8 @@
 ## [crackmes.one-CosmoSSS's Password]
 
 **Category:** Reverse
+
+
 **Difficulty:** Easy
 
 ## Challenge Overview
