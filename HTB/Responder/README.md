@@ -27,11 +27,11 @@ Here we want to get the administrator password HASH.
 
 2) We trigger the authentication with the FLI attack
 
-<img width="1275" height="854" alt="image" src="https://github.com/user-attachments/assets/9388c22d-cef4-47b6-bbe4-60b1ab7da5b6" />
+  <img width="1275" height="854" alt="image" src="https://github.com/user-attachments/assets/9388c22d-cef4-47b6-bbe4-60b1ab7da5b6" />
 
 3) We use john the ripper to crack the password
 
-<img width="779" height="238" alt="image" src="https://github.com/user-attachments/assets/113211dc-ec23-40c5-a35d-380dac15327a" />
+  <img width="779" height="238" alt="image" src="https://github.com/user-attachments/assets/113211dc-ec23-40c5-a35d-380dac15327a" />
 
 4) At this point, knowing the username and password, we can use evil-winrm to connect to the Windows machine
 
