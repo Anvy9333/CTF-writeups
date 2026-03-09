@@ -2,6 +2,7 @@
 
 **Platform:** HackTheBox  
 **Category:** Windows 
+
 **Difficulty:** Very Easy  
 
 ## Context
