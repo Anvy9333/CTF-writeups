@@ -1,7 +1,7 @@
 ## [Responder]
 
 **Platform:** HackTheBox  
-**Category:** Windows 
+**Category:** Windows   
 **Difficulty:** Very Easy  
 
 ## Context
