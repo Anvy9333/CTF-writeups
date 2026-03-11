@@ -14,6 +14,8 @@ This machine demonstrates how a misconfigured cloud storage bucket can lead to r
 Opening the website shows a page for The Toppers band.
 
 While inspecting the page we discover an email address:
+
+
 <img width="1280" height="379" alt="image" src="https://github.com/user-attachments/assets/605de995-6f65-4393-871c-92a216da1593" />
 
 This reveals a potential domain name:
