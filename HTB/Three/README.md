@@ -40,11 +40,15 @@ We add it to /etc/hosts.
 We interact with the bucket using the AWS CLI.
 
 ```aws --endpoint=http://s3.thetoppers.htb s3 ls```
+
+
 <img width="570" height="114" alt="image" src="https://github.com/user-attachments/assets/ddf77ccd-6a16-4400-b8d5-e7b797886ab4" />
+
 
 ```aws --endpoint=http://s3.thetoppers.htb s3 ls s3://thetoppers.htb```
 
 <img width="662" height="77" alt="image" src="https://github.com/user-attachments/assets/177dea07-f91a-4b42-a7bc-0eeab062ac32" />
+
 
 <h2>5) Exploitation : Upload Webshell</h2>
 
