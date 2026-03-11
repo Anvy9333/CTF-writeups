@@ -49,19 +49,22 @@ We interact with the bucket using the AWS CLI.
 
 
 
-<h2>5) Exploitation : Upload Webshell</h2>
+<h2>4) Exploitation : Upload Webshell</h2>
 
 We create a PHP shell and upload it to the bucket 
 
 
 <img width="662" height="77" alt="image" src="https://github.com/user-attachments/assets/177dea07-f91a-4b42-a7bc-0eeab062ac32" />
+
+
 The file is now accessible from the web server.
 We verify command execution.
+
 
 <img width="691" height="151" alt="image" src="https://github.com/user-attachments/assets/46aa8f00-9117-4041-9a4b-83bd23d6e5e5" />
 
 
-<h2>6) Reverse Shell</h2>
+<h2>5) Reverse Shell</h2>
 Start a listener:
 
 ```nc -lvnp 4444```
