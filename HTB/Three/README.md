@@ -47,6 +47,7 @@ We interact with the bucket using the AWS CLI.
 
 ```aws --endpoint=http://s3.thetoppers.htb s3 ls s3://thetoppers.htb```
 
+
 <img width="662" height="77" alt="image" src="https://github.com/user-attachments/assets/177dea07-f91a-4b42-a7bc-0eeab062ac32" />
 
 
