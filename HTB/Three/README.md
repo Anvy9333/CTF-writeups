@@ -29,6 +29,8 @@ We add it to /etc/hosts.
 <h2>2) subdomain enumeration  </h2>
 
 ```gobuster vhost -u http://thetoppers.htb/ -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt --append-domain``` 
+
+
 <img width="815" height="328" alt="image" src="https://github.com/user-attachments/assets/65e916ab-9486-4229-8cce-2cc6e8880cf4" />
 
 
