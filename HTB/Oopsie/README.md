@@ -1,7 +1,7 @@
 ## [Oopsie]
 
 **Platform:** HackTheBox  
-**Category:** Linux
+**Category:** Linux 
 **Difficulty:** Very Easy  
 
 ## Context
